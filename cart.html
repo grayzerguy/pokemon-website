@@ -25,12 +25,38 @@
       <h2>Chose your favorite Pokemon</h2>
       <p>Please fill in some data before u make order.</p>
       <form>
-        <label for="pops">Choose your favorite Pops</label>
-        <select  id="pops">
-          <option value="Aipom">Aipom</option>
-          <option value="Bulbasaur">Bulbasaur</option>
-          <option value="Charizard">Charizard</option>
-        </select>
+        <p>
+          <label for="pops">Choose your favorite Pops</label>
+          <select id="pops">
+            <option value="aipom">Aipom</option>
+            <option value="bulbasaur">Bulbasaur</option>
+            <option value="charizard">Charizard</option>
+          </select>
+        </p>
+        <p>
+          <label for="quantity">Quantity</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10" />
+        </p>
+        <P>
+          <label for="popscolor">Choose your favorite Pops color</label>
+          <input id="opscolor" type="color" name="popscolor">
+        </P>
+        <p>
+        <fieldset>
+          <legend>Deliver To</legend>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Name" />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email" />
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Phone" />
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" placeholder="Address" />
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" placeholder="city" />
+
+        </fieldset>
+        </p>
       </form>
     </article>
   </main>
