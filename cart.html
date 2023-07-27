@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="index.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Card</h1>
+    <nav>
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <hr>
+  <main>
+    <article>
+      <h2>Chose your favorite Pokemon</h2>
+      <p>Please fill in some data before u make order.</p>
+      <form>
+        <p>
+          <label for="pops">Choose your favorite Pops</label>
+          <select id="pops">
+            <option value="aipom">Aipom</option>
+            <option value="bulbasaur">Bulbasaur</option>
+            <option value="charizard">Charizard</option>
+          </select>
+        </p>
+        <p>
+          <label for="quantity">Quantity</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10" />
+        </p>
+        <P>
+          <label for="popscolor">Choose your favorite Pops color</label>
+          <input id="opscolor" type="color" name="popscolor">
+        </P>
+        <p>
+        <fieldset>
+          <legend>Deliver To</legend>
+          <P>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" />
+
+          </P>
+          <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" />
+            <label for="password">Password</label><input type="password" id="password" name="password"
+              placeholder="Password" required />
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone" />
+          </p>
+          <p>
+            <label for="address">Address</label>
+            <textarea type="text" id="address" name="address" placeholder="Address" rows="3" cols="30"></textarea>
+
+          </p>
+
+        </fieldset>
+        <button type="submit">Submit</button>
+        </p>
+      </form>
+    </article>
+  </main>
+  <footer>
+    This site was built by &copy; Doc Code
+  </footer>
+</body>
+</html>
